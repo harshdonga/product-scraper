@@ -17,8 +17,9 @@ mongoDB                   27017           mongoDB service to store product docum
 References :
 
 1. https://hub.docker.com/_/golang
-2. https://www.youtube.com/watch?v=JNr5noDp6EM (playlist)
-3. https://golangtutorial.dev/tips/http-post-json-go/#:~:text=Follow%20the%20below%20steps%20to,NewRequest%20method.&text=Second%20parameter%20is%20URL%20of%20the%20post%20request.
-4. https://stackoverflow.com/questions/13582519/how-to-generate-hash-number-of-a-string-in-go
-5. https://www.google.com/search?q=Get+%22%22%3A+unsupported+protocol+scheme+%22%22&oq=Get+%22%22%3A+unsupported+protocol+scheme+%22%22&aqs=chrome..69i57.9153j0j1&sourceid=chrome&ie=UTF-8
+2. https://www.youtube.com/watch?v=G3PvTWRIhZA&list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX
+3. https://www.youtube.com/watch?v=JNr5noDp6EM (playlist)
+4. https://golangtutorial.dev/tips/http-post-json-go/#:~:text=Follow%20the%20below%20steps%20to,NewRequest%20method.&text=Second%20parameter%20is%20URL%20of%20the%20post%20request.
+5. https://stackoverflow.com/questions/13582519/how-to-generate-hash-number-of-a-string-in-go
+6. https://www.google.com/search?q=Get+%22%22%3A+unsupported+protocol+scheme+%22%22&oq=Get+%22%22%3A+unsupported+protocol+scheme+%22%22&aqs=chrome..69i57.9153j0j1&sourceid=chrome&ie=UTF-8
 
