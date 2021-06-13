@@ -1,0 +1,37 @@
+version: "3.8"
+
+volumes: 
+  mongodb:
+
+services:
+  scraper:
+    build:
+      context: ./scraper
+      dockerfile: Dockerfile
+    image: scraper
+    ports:
+      - "5000:5000"
+    expose:
+      - 5000
+    container_name: scraper
+  
+  dbapi:
+    build:
+      context: ./dbapi
+      dockerfile: Dockerfile
+    image: dbapi
+    ports:
+      - "5001:5001"
+    container_name: dbapi
+  
+  database:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    container_name: MongoDB
+    command: mongod --quiet --logpath /dev/null
+    volumes:
+      - type: volume
+        source: mongodb
+        target: /data/db
+    
